@@ -1,0 +1,107 @@
+# Laravel specific
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+
+# IDE and Editor files
+/.idea
+/.vscode
+*.swp
+*.swo
+*~
+.project
+.settings/
+nbproject/
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# PHP & Composer
+composer.phar
+composer.lock
+vendor/
+
+# Node & NPM
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+
+# Build files
+/public/build
+/public/mix-manifest.json
+/public/css
+/public/js
+
+# Database
+*.sqlite
+*.sqlite-journal
+database/database.sqlite
+
+# Logs
+*.log
+storage/logs/*.log
+
+# Testing
+.phpunit.cache
+coverage/
+phpunit.xml
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+tmp/
+temp/
+
+# Cache
+bootstrap/cache/*
+!bootstrap/cache/.gitignore
+storage/framework/cache/*
+!storage/framework/cache/.gitignore
+storage/framework/sessions/*
+!storage/framework/sessions/.gitignore
+storage/framework/views/*
+!storage/framework/views/.gitignore
+
+# Uploaded files (if any)
+/public/uploads
+
+# VS Code workspace settings
+.vscode/
+
+# PhpStorm project files
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
